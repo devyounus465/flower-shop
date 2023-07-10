@@ -115,3 +115,20 @@ h4.caption {
   line-height: 35px;
   text-decoration-line: underline;
 }
+
+/* services area style */
+
+.services-content {
+  background: #2727270d;
+  padding: 100px;
+  border-radius: 8px;
+}
+.service-box {
+  text-align: center;
+}
+h4.service-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
