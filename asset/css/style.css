@@ -83,7 +83,8 @@ h1.hero-title {
 /* features area style start */
 
 .feature-section-title,
-.instagram-title {
+.instagram-title,
+.neewsletter-title {
   text-align: center;
   width: 50%;
   margin: 0 auto;
@@ -159,4 +160,54 @@ h4.service-title {
 }
 .single-insta-box img {
   width: 100%;
+}
+
+/* form style */
+.newsletter-content {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+input[type="email"] {
+  padding: 15px 10px;
+  border-radius: 8px;
+  border: aliceblue;
+  background: #fff;
+  width: 50%;
+}
+
+/* footer area style */
+.footer-area-start {
+  background: #111010;
+  text-align: center;
+  color: #fff;
+}
+h3.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+span.footer-logo {
+  color: #e55473;
+}
+p.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 625px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+p.copy-right {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
