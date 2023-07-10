@@ -82,7 +82,8 @@ h1.hero-title {
 /* Hero area style end */
 /* features area style start */
 
-.feature-section-title {
+.feature-section-title,
+.instagram-title {
   text-align: center;
   width: 50%;
   margin: 0 auto;
@@ -131,4 +132,31 @@ h4.service-title {
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
+}
+
+/* promotion area style */
+.promotion-area-start {
+  background: #e554730d;
+}
+
+.promotion-left-colmn {
+  width: 50%;
+  text-align: center;
+}
+.promotion-right-colmn {
+  width: 50%;
+  text-align: center;
+}
+
+/* instagram section style */
+
+.instagram-image-boxes {
+  gap: 20px;
+}
+.single-insta-box {
+  width: 250px;
+  height: 300px;
+}
+.single-insta-box img {
+  width: 100%;
 }
