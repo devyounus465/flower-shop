@@ -117,7 +117,25 @@ h4.caption {
   line-height: 35px;
   text-decoration-line: underline;
 }
-
+/* bonus area style */
+.bonus-area-start {
+  background: rgb(229 84 115 / 10%);
+}
+.bonus-left-colmn {
+  width: 50%;
+}
+.left-content {
+  margin: 0 100px;
+}
+.bonus-heading {
+  margin: 20px 0;
+}
+.bonus-right-colmn {
+  width: 50%;
+}
+.bonus-right-colmn img {
+  width: 100%;
+}
 /* services area style */
 
 .services-content {
